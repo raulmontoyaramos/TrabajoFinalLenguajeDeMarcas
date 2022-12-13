@@ -1,0 +1,108 @@
+* {
+    background-color: azure;
+    font-style: oblique;
+}
+
+.banner {
+    position: relative;
+}
+
+.volver {
+   margin-left: 80%;
+}
+
+.imagen-bg {
+    width:100%;
+    height:250px;
+}
+
+.indice {
+    border-style: solid;
+    border-color: blueviolet;
+    padding-left: 50px;
+    margin: 10px 100px 0px 100px;
+    text-align: center;
+}
+
+.link {
+    background-color: aqua;
+}
+
+.parrafo {
+    font-size: 100%;
+    margin-bottom: 0px;
+}
+
+[href="./trabajo.html"] {
+    color: forestgreen;
+}
+
+.subindice {
+    margin-top: 0px;
+}
+
+.caja {
+    display: flex;
+    flex-direction: row;
+}
+
+.portaFoto {
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+    display: block;
+}
+
+.laFoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pie {
+    border: solid;
+    border-color: chocolate;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 850px;
+    text-align: center;
+}
+
+@media screen and (orientation:landscape) {
+    .portaFoto {
+        max-width: 1920px;
+        max-height: 1280px;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    .portaFoto {
+        max-width: 800px;
+        max-height: 1200px;
+    }
+}
+
+.titulo {
+    text-align: center;
+}
+
+.izquierda {
+    margin-right: 500px;
+    height: 600px;
+
+}
+
+.al-lado {
+    height: 650px;
+    width: 400px;
+    margin-left: 900px;
+    margin-top: -550px;
+
+}
+
+.otraimagen {
+    height: 180px;
+    width: 285px;
+    margin-left: 150px;
+
+}
