@@ -11,6 +11,10 @@
    margin-left: 80%;
 }
 
+.elemento_navegacion {
+ color:aqua;
+}
+
 .imagen-bg {
     width:100%;
     height:250px;
@@ -33,8 +37,59 @@
     margin-bottom: 0px;
 }
 
+a:active {
+    position: relative;
+    top: 1px;
+}
+
+#menu {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display:table-row;
+    }
+   
+  #menu ul  {
+    list-style: none;
+    margin: 0;
+    }
+   
+  #menu ul li {
+    margin: 0;
+    float: left;
+    }
+   
+  #menu ul li a {
+    margin:0 2px;
+    width: 138px;
+    font-weight:bold;
+    font-size:1.5em;
+    text-align: center;
+    line-height: 44px;
+    display:block;
+    text-decoration: none
+    }
+   
+  #menu ul li a:hover {
+    color:#000;
+    }
+   
+  #item-uno a {
+    border-bottom:5px solid #f00;
+    color: #f00
+    }
+   
+  #item-dos a {
+    border-bottom:5px solid #f80;
+    color: #f80;
+    }
+
 [href="./trabajo.html"] {
     color: forestgreen;
+}
+
+[href="./index.html"] {
+    color:forestgreen;
 }
 
 .subindice {
